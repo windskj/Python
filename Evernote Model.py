@@ -27,7 +27,7 @@ EvernoteArticle.write('''<?xml version="1.0" encoding="UTF-8"?>
                         <span style="font-size: 14pt; color: rgb(0, 136, 167);-en-paragraph:true;">&nbsp;</span>''')
 if Tag != '':
     EvernoteArticle.write(
-        '<span style="font-size: 10pt;-en-paragraph:true;">_' + Tag + '，</span>')
+        '<span style="font-size: 10pt;-en-paragraph:true;">_' + Tag + '</span>')
 EvernoteArticle.write('''<br/>
                     </div>
                     <div style="margin-top: 1em; margin-bottom: 1em; text-align: justify;">
