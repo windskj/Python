@@ -5,7 +5,7 @@ Title = Article[0]
 Tag = Article[1]
 Date = Article[2]
 Abstract = Article[3]
-Tag = ',_'.join(Tag.split(','))
+Tag = '，_'.join(Tag.split('，'))
 # 创建以日期命名文件
 FileName = Date.replace("\n", '') + '.txt'
 EvernoteArticle = open('c:\\Users\\Administrator\\Desktop\\' +
